@@ -47,7 +47,9 @@ The quality of its output, supported languages, and analysis capabilities will e
 
 ## Usage
 
-Usage instructions will be added as the CLI stabilizes.
+Use `westie` on any repo.
+
+Use `pip install --no-cache-dir --index-url https://pypi.org/simple/ Westie=={version}` for update.
 
 ## Philosophy
 
