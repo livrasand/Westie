@@ -56,3 +56,15 @@ Use `pip install --no-cache-dir --index-url https://pypi.org/simple/ Westie=={ve
 Software should not need an AI service to automate every small task.
 
 Westie investigates whether a focused, transparent, and deterministic program can do one useful thing well: explain code changes in plain language.
+
+---
+
+[![Share](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=Check%20out%20this%20project%20on%20GitHub:%20https://github.com/livrasand/Westie)
+[![Share](https://img.shields.io/badge/share-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/livrasand/Westie)
+[![Share](https://img.shields.io/badge/share-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/livrasand/Westie)
+[![Share](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=Check%20out%20this%20project%20on%20GitHub:%20https://github.com/livrasand/Westie)
+[![Share](https://img.shields.io/badge/share-0088CC?logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/livrasand/Westie&text=Check%20out%20this%20project%20on%20GitHub)
+
+*✨ Thanks for visiting **Westie**!*
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=livrasand.Westie&style=for-the-badge&color=f76f53" alt="Views">
