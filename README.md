@@ -49,6 +49,29 @@ The quality of its output, supported languages, and analysis capabilities will e
 
 Use `westie` on any repo.
 
+### Local API Server
+
+You can now run a minimal OpenAI‑compatible API locally:
+
+```bash
+westie start        # Shortcut to launch the server
+# or
+westie --serve      # Equivalent flag
+```
+
+The server starts on **http://0.0.0.0:54321** (a high, rarely‑used port) and provides two endpoints:
+
+* `GET /v1/models` – returns a list with the single model `westie-1`.
+* `POST /v1/chat/completions` – returns a commit‑message draft (or a static fallback when no Git repository is present).
+
+Example request:
+
+```bash
+curl -X POST http://127.0.0.1:54321/v1/chat/completions \
+     -H "Content-Type: application/json" \
+     -d '{"model":"westie-1","messages":[{"role":"user","content":"Generate a commit message"}]}'
+```
+
 Use `pip install --no-cache-dir --index-url https://pypi.org/simple/ Westie=={version}` for update.
 
 ## Philosophy

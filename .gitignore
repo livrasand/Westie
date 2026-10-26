@@ -18,3 +18,4 @@ htmlcov/
 .vscode/
 
 PUBLISH.md
+.vercel
